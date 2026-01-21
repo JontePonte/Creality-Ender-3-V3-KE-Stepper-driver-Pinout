@@ -1,0 +1,14 @@
+Here's how to use the stepper motor drivers on the Creality Ender-3 V3 KE board:
+
+Pin name:	  Function:
+TP16		    Enable (all motors)
+TP14		    X Step
+TP13		    X Dir
+TP17		    Y Step
+TP15		    Y Dir
+TP20		    Z Step
+TP18		    Z Dir
+TP21		    E Step
+TP19	  	  E Dir
+
+No programming is needed, just solder connectors to these pins on the back of the board and controll the stepper drivers with arduino, esp32 or similar.
